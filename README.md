@@ -4,7 +4,9 @@
 
 ## About Project
 
-To demonstrate the algorithm, in this project, I consider a static environment in which the robot does not know the location of obstacles (but knows the location of itself and the goal). The robot has a 360-degree field of view up to a specific range, and if an obstacle is within that range, the robot can identify it. In this project, the robot starts at the bottom left corner and navigates to the goal, which is at the top right corner. Initially, the robot samples the configuration space for a 
+To demonstrate the algorithm, in this project, I consider a static environment in which the robot does not know the location of obstacles (but knows the location of itself and the goal). The robot has a 360-degree field of view up to a specific range, and if an obstacle is within that range, the robot can identify it. In this project, the robot starts at the bottom left corner and navigates to the goal, which is at the top right corner. 
+
+Initially, the robot samples the configuration space for a 
 certain period of time (set by the user), and then after sufficient sampling, it navigates to the goal making changes
 to the path (i.e., repairing the tree) as necessary when it sees an obstacle. I've placed the obstacles in such a way that the robot repairs the path multiple times before reaching the goal. **Check out the video
 [here](https://drive.google.com/open?id=1g_cOHdx0kDleEXW9ISh2A4etzxu8Uugt)**.
